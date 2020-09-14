@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href = 'style.css' rel = 'stylesheet'>
+    <script defer src = 'script.js'></script>
+
+    <title>Form Validation</title>
+</head>
+<body>
+
+    <div class = 'container'>
+        <div class = 'header'>
+            <h2>Enter your Information</h2>
+        </div>
+        <form id = 'form', class="form">
+            <div class = 'form-control'>
+                <label for = 'username'>Username</label>
+                <input type="text" id= 'username'>
+                <small>Error Message</small>
+            </div>
+
+            <div class = 'form-control'>
+                <label for = 'email'>Email-id</label>
+                <input type="email" id= 'email'>
+                <small>Error Message</small>
+            </div>
+
+            <div class = 'form-control'>
+                <label for = 'password'>Password</label>
+                <input type="password" id= 'password'>
+                <small>Error Message</small>
+            </div>
+
+            <div class = 'form-control'>
+                <label for = 'repeat-pass'>Repeat Password</label>
+                <input type="password" id= 'repeat-pass'>
+                <small>Error Message</small>
+            </div>
+            <button id='btn'>Submit</button>
+
+        </form>
+    </div>
+</body>
